@@ -22,7 +22,6 @@ let newtonEstimate = (fx, dx, x) => {
         return -999999; // convert to throw
     }
 
-    let test = eval(fx)
     return x - eval(fx)/derivative;
 }
 
